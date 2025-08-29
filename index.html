@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelompok 3</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #4f46e5;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .card ul {
+      list-style: none;
+      margin: 10px;
+      padding: 0;
+      text-align: left;
+      font-size: 14px;
+    }
+    .card li {
+      margin: 5px 0;
+    }
+    .card li b {
+      color: #4f46e5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KELOMPOK 3</h1>
+    <p>BIODATA KELOMPOK 3</p>
+  </header>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="https://thumbs2.imgbox.com/97/90/1pOxKLl5_t.jpg" alt="Biodata Masayu">
+      <ul>
+        <li><b>Nama Lengkap:</b> Masayu Bianca Zahwa Marwa</li>
+        <li><b>Nama Panggilan:</b> Ayu/Aca</li>
+        <li><b>Alamat:</b> Bunga Tanjung</li>
+        <li><b>Tempat, Tgl Lahir:</b> B.Tanjung, 26-03-2011</li>
+        <li><b>Hobby:</b> Futsal</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <img src="https://thumbs2.imgbox.com/57/1b/cbsM7Qh5_t.jpg" alt="Biodata Cherly">
+      <ul>
+        <li><b>Nama Lengkap:</b> Cherly Olivia</li>
+        <li><b>Nama Panggilan:</b> Cherly</li>
+        <li><b>Alamat:</b> Pekan Heran</li>
+        <li><b>Tempat, Tgl Lahir:</b> Pekan Heran, 16-10-2010</li>
+        <li><b>Hobby:</b> Jalan-jalan</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <img src="https://thumbs2.imgbox.com/5e/bd/nKMtQtUI_t.jpg" alt="Biodata Salsa">
+      <ul>
+        <li><b>Nama Lengkap:</b> Salsa Nabila</li>
+        <li><b>Nama Panggilan:</b> Sasa</li>
+        <li><b>Alamat:</b> Sungai Baung</li>
+        <li><b>Tempat, Tgl Lahir:</b> Sungai Baung, 13-10-2010</li>
+        <li><b>Hobby:</b> Mendengar Lagu</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <img src="https://thumbs2.imgbox.com/67/ad/L5zgC4rx_t.jpg" alt="Biodata Nita">
+      <ul>
+        <li><b>Nama Lengkap:</b> Yuanita Sari</li>
+        <li><b>Nama Panggilan:</b> Nita</li>
+        <li><b>Alamat:</b> Talang Jerinjing</li>
+        <li><b>Tempat, Tgl Lahir:</b> Pematang Rebah, 22-07-2010</li>
+        <li><b>Hobby:</b> Nyanyi</li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
